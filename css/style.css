@@ -113,6 +113,10 @@
     background-color: lightgreen;
 }
 
+.bg-red{
+    background-color: red;
+}
+
 .pd-10{
     padding: 10px;
 }
@@ -151,6 +155,10 @@
 
 .border{
     border: 2px dashed black;
+}
+
+.border-white{
+    border: 2px dashed white;
 }
 
 /* END UTILITY CLASSES */
