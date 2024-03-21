@@ -29,8 +29,16 @@
     width: 100%;
 }
 
+.col-15{
+    width: calc(70% / 4);
+}
+
 .col-25{
     width: 25%;
+}
+
+.col-30{
+    width: 30%;
 }
 
 .col-40{
@@ -89,6 +97,10 @@
     background-color: green;
 }
 
+.bg-grey{
+    background-color: grey;
+}
+
 .pd-10{
     padding: 10px;
 }
@@ -103,6 +115,10 @@
 
 .height-350{
     height: 350px;
+}
+
+.height-450{
+    height: 450px;
 }
 
 .height-500{
