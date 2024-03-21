@@ -26,12 +26,14 @@
 
 .col-25{
     width: 25%;
-    border: 2px dashed black;
 }
 
 .col-50{
     width: 50%;
-    border: 2px dashed black;
+}
+
+.col-100{
+    width: 100%;
 }
 
 /* END LAYOUT CLASSES*/
@@ -50,8 +52,12 @@
     background-color: orange;
 }
 
-.bg-pink{
-    background-color: pink;
+.bg-violet{
+    background-color: violet;
+}
+
+.bg-blue{
+    background-color: blue;
 }
 
 .pd-10{
@@ -64,6 +70,18 @@
 
 .height-100{
     height: 100px;
+}
+
+.height-350{
+    height: 350px;
+}
+
+.height-500{
+    height: 500px;
+}
+
+.border{
+    border: 2px dashed black;
 }
 
 /* END UTILITY CLASSES */
