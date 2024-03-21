@@ -65,6 +65,14 @@
     align-items: center;
 }
 
+.align-end{
+    align-items: flex-end;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
 .bg-lightblue{
     background-color: lightblue;
 }
@@ -101,12 +109,20 @@
     background-color: grey;
 }
 
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+
 .pd-10{
     padding: 10px;
 }
 
 .font-20{
     font-size: 20px;
+}
+
+.height-70{
+    height: 70px;
 }
 
 .height-100{
@@ -147,6 +163,15 @@
     text-align: center;
 }
 
-.login{
+.login {
     text-align: right;
+}
+
+hr{
+    border-color: lightgray;
+}
+
+.col-100 .logo, .col-100 .btn{
+    padding: 5px;
+    height: 50%;
 }
