@@ -85,6 +85,10 @@
     background-color: lightgrey;
 }
 
+.bg-green{
+    background-color: green;
+}
+
 .pd-10{
     padding: 10px;
 }
@@ -103,6 +107,14 @@
 
 .height-500{
     height: 500px;
+}
+
+.height-800{
+    height: 800px;
+}
+
+.height-1000{
+    height: 1000px;
 }
 
 .border{
