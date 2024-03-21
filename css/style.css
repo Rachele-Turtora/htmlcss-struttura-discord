@@ -15,6 +15,11 @@
     margin: 0 auto;
 }
 
+.small-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .background{
     width: 100%;
 }
@@ -28,8 +33,16 @@
     width: 25%;
 }
 
+.col-40{
+    width: 40%;
+}
+
 .col-50{
     width: 50%;
+}
+
+.col-60{
+    width: 60%;
 }
 
 .col-100{
@@ -58,6 +71,18 @@
 
 .bg-blue{
     background-color: blue;
+}
+
+.bg-cyan{
+    background-color: cyan;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-lightgrey{
+    background-color: lightgrey;
 }
 
 .pd-10{
