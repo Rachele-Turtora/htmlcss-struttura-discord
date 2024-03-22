@@ -15,8 +15,8 @@
     margin: 0 auto;
 }
 
-.small-container{
-    max-width: 1000px;
+.container-sm{
+    max-width: 990px;
     margin: 0 auto;
 }
 
@@ -161,18 +161,31 @@
     border: 2px dashed white;
 }
 
-/* END UTILITY CLASSES */
-
-.logo{
+.text-left{
     text-align: left;
 }
 
-.link{
+.text-center{
     text-align: center;
 }
 
-.login {
+.text-right{
     text-align: right;
+}
+
+/* END UTILITY CLASSES */
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
 }
 
 hr{
